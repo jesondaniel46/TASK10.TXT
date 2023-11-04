@@ -1,0 +1,13 @@
+# Define the code to write into the text file
+code = """print("Hello, World!")
+x = 10
+y = 20
+result = x + y
+print("Sum of x and y:", result)
+"""
+
+# Write the code to a text file
+with open("sample_code.py", "w") as file:
+    file.write(code)
+
+print("Code has been written to 'sample_code.py' file.")
